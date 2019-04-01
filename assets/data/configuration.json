@@ -1,13 +1,13 @@
 {
-  "url": "https://darosh.github.io/openapi-directory-lite/specs/github.com/v3.json",
+  "url": "https://gl.githack.com/niki-open/apis/raw/master/internal/payments.yaml",
   "defaultTitle": "API",
   "proxy": "https://cors-anywhere.herokuapp.com/",
-  "defaultDarkTheme": false,
+  "defaultDarkTheme": true,
   "allowUrlEdit": true,
   "allowSwithTheme": true,
   "allowEditProxy": true,
   "allowDownload": false,
   "updated": false,
   "limitSpecButtonText": 8,
-  "directory": ["openAPIDirectory", "openAPIDirectoryLite", "swaggerHubRegistry", "apisIoOpenAPIs", "openAPISamples", "hapi"]
+  "directory": ["openAPIDirectory", "apisIoOpenAPIs"]
 }

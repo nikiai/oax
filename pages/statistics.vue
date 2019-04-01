@@ -97,10 +97,10 @@
           v-card-text
             .body-2.mb-2 Data source
             div
-              a(href="https://apis.guru/openapi-directory/") APIs.guru OpenAPI directory
+              a(href="https://gitlab.com/niki-open/apis") Niki OpenAPI directory
               |  via precomputed values from
               =" "
-              a(href="https://github.com/darosh/openapi-directory-lite") OpenAPI Directory Lite
+              a(href="https://gitlab.com/niki-open/apis") OpenAPI Directory Lite
               |  repository.
 
       div(style="clear: both")
@@ -111,7 +111,7 @@
 <script>
   import {maxBy, round, findIndex} from '../plugins/lodash'
   import { scaleLinear } from '../plugins/d3'
-  import { colors } from '../assets/scripts/services/directory/openapi-directory-lite'
+  import { colors } from '../assets/scripts/services/directory/production'
   import axios from 'axios'
   import appDonutChart from '../components/elements/misc/DonutChart'
   import stats from '../components/mixins/stats.ts'

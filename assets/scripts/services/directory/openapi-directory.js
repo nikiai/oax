@@ -1,10 +1,10 @@
-import { colored } from './openapi-directory-lite'
+import { colored } from './production'
 
 export default {
   title: 'OpenAPI Directory',
   subTitle: 'Community driven online collection',
   home: 'https://gitlab.com/niki-open/apis/',
-  base: 'https://gitlab.com/niki-open/apis/raw/master/api.json',
+  base: 'https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore.yaml',
   keys: true,
   categories: true,
   unclassified: true,
