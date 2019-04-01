@@ -3,8 +3,8 @@ import { colored } from './openapi-directory-lite'
 export default {
   title: 'OpenAPI Directory',
   subTitle: 'Community driven online collection',
-  home: 'https://apis.guru/openapi-directory/',
-  base: 'https://api.apis.guru/v2/list.json',
+  home: 'https://gitlab.com/niki-open/apis/',
+  base: 'https://gitlab.com/niki-open/apis/raw/master/api.json',
   keys: true,
   categories: true,
   unclassified: true,
@@ -18,7 +18,7 @@ export default {
           title: v.versions[v.preferred].info.title,
           key,
           url: v.versions[v.preferred].swaggerYamlUrl,
-          categories: v.versions[v.preferred].info['x-apisguru-categories']
+          categories: v.versions[v.preferred].info['x-apis-categories']
         })
       }
     }
