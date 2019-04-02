@@ -4,7 +4,7 @@ export default {
   title: 'OpenAPI Directory',
   subTitle: 'Community driven online collection',
   home: 'https://gitlab.com/niki-open/apis/',
-  base: 'https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore.yaml',
+  base: 'https://glcdn.githack.com/niki-open/apis/raw/master/api.json',
   keys: true,
   categories: true,
   unclassified: true,
